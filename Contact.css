@@ -1,0 +1,54 @@
+.form {
+    margin: 20px;
+    padding: 8px;
+    border: 2px solid white;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+
+}
+.submit {
+    height: 25px;
+    width: 80px;
+    border: 2px solid olive;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: darkolivegreen;
+}
+.mesaj {
+
+    font-size: 18px;
+    margin: 30px;
+    text-align: inherit;
+    word-break: keep-all;
+    font-style: italic;
+    color:black;
+
+}
+.contact {
+text-align: center;
+margin-bottom: 60px;
+}
+#email2   {
+margin-left: 5px;
+
+}
+#email2:hover {
+color: green;
+}
+#telefon {
+margin-left: 20px;
+}   
+#telefon:hover {
+color: green;
+}
+.orice {
+float: left;
+margin: 100px;
+}

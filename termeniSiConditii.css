@@ -1,0 +1,32 @@
+body{
+    background-image: url(images/fundalCarti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+h2{
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    font-family:cursive;
+    margin: 7px;
+    color: rgb(255, 255, 254);
+    font-style: oblique;
+}
+.termeniSiConditii {
+ font-size: 17px;
+ margin: 4px;
+ color: rgb(255, 255, 255);
+ font-style: oblique;
+}
+p {
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}

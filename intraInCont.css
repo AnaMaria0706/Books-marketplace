@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/login.jpg);
+    
+}
+.logare {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    margin: -90px auto;
+    background-color: transparent;
+    box-shadow: -20px 20px 15px 20px rgb(41, 39, 40);
+    margin-top: 50px;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+}
+.buton {
+    background-color: rgb(254, 254, 254);
+        color: rgb(84, 79, 79);
+        border-radius: 10px;
+        font-style: oblique;
+        width: 150px;
+        height: 30px;
+        cursor: pointer;
+}
+.buton:hover {
+    background-color: red;
+}
+.register {
+    background-color: rgb(254, 254, 254);
+        color: rgb(84, 79, 79);
+        border-radius: 10px;
+        font-style: oblique;
+        width: 150px;
+        height: 30px;
+        cursor: pointer;
+}

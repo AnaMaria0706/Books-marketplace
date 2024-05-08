@@ -1,0 +1,24 @@
+body{
+    background-image: url(images/fundalCarti2.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.reguli{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248, 242, 242);
+    line-height: 30px;
+    text-align: center;
+    
+    
+}
+h3{
+    color:aliceblue;
+    font-family: cursive;
+    text-align: center;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}

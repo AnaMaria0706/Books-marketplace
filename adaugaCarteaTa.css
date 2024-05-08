@@ -1,0 +1,35 @@
+body {
+    background-image: url(images/bookB.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+#carte {
+    background-color: transparent;
+    margin-left: 400px;
+    text-align: center;
+    border: none;
+    color: aliceblue;
+}
+#trimite {
+    border: 2px solid rgb(36, 100, 148);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#trimite:hover {
+    background-color: rgb(20, 104, 178);
+}
+.descriere {
+    border: 1px double transparent;
+    border-radius: 10px;
+}
+.lista{
+ text-align: center;
+ margin-right: 350px;
+ color: rgb(15, 15, 15);
+ font-size: 20px;
+}
+p{
+    color: rgb(6, 6, 6);
+}

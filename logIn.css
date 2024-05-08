@@ -1,0 +1,29 @@
+body {
+    background-image: url(images/login.jpg);
+            }
+.logare {
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    padding: 50px;
+    margin: -90px auto;
+    border: 10px double rgb(73, 68, 68);
+    background-color: transparent;
+    box-shadow: -20px 20px 15px rgb(48, 44, 44);
+    margin-top: 50px;
+
+
+}
+
+.buton {
+    background-color: rgb(132, 145, 172);
+    color: rgb(124, 48, 150);
+    border-radius: 10px;
+    font-style: italic;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.buton:hover {
+  background-color: bisque;
+}

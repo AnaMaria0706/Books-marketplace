@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adauga cartea ta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css ">
+    <link rel="stylesheet" href="Meniu.css">
+    <link rel="stylesheet" href="adaugaCarteaTa.css">
+    
+    
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jfif">
+            </div>
+            <ul>
+
+                <li><a href="produsePrecious.html">Produse</a> </li>
+                <li><a href="AdaugaCarteaTa.html">Adauga cartea ta </a> </li>
+                
+
+            </ul>
+            <input type="text" id="search" name="text" placeholder="cauta o carte..." />
+            <div class="meniu-right-side">
+                <li><a href="intra in cont.html">Intra in cont</a> </li>
+                <li><a href="anabook.html">Acasa </a> </li>
+                
+            </div>
+          
+        </nav>
+    </section>
+    
+        <fieldset id="carte">
+            <table>
+                <tr>  
+                   <td>Nume si prenume*</td>
+               
+                   <td colspan="2"> <input type="text" name="firstandlastname"/></td>
+               
+                </tr>
+                <tr>
+                   <td>Telefon</td>
+                   <td colspan="2"> <input type="tel" name="phone"/></td>
+                   
+                </tr>
+                <tr>
+                   <td>Email*</td>
+                   <td colspan="2"> <input type="email" name="email"/></td>
+                   
+                   </tr>
+               <tr>
+                   <td>Detalii Produs*</td>
+                   <td><textarea class="descriere" rows="10" cols="30" placeholder="Adauga descrierea"></textarea></td>
+                   
+                   </tr>
+                
+              
+                </table>
+                <div class="lista">
+               <p>Genul cartii</p>
+                <input list="genul cartii">
+                 <datalist id="genul cartii">
+                    <option value="Poezie">Poezie</option>
+                    <option value="Roman">Roman</option>
+                    <option value="Medicina">Medicina</option>
+                    <option value="Fictiune">Fictiune</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Educatie">Educatie</option>
+                    <option value="Altceva">Altceva</option>
+                    
+                </datalist>
+                <p><b> Incarca o fotografie</b></p>
+                <input type="file" name="myFile" ><br><br>
+                <input id="trimite" type="submit" value="Trimite" >
+            </fieldset>
+        </div>
+    
+    <div class="footer">
+        <ul>
+            <li>Termeni si Conditii</li>
+            <li>Contact</li>
+            <li>
+                <a href="comenziSiLivrare.html">Comenzi si lIvrare</a>
+              </li>
+            <li>Follow Us</li>
+            <i class="fa-brands fa-facebook"></i><br><br>
+            <i class="fa-brands fa-twitter"></i><br><br>
+            <i class="fa-brands fa-instagram"></i><br><br>
+        </ul>
+
+    </div>
+</body>
+</html>
